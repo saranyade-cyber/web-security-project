@@ -11,7 +11,7 @@ and more importantly, how to secure them against modern attack vectors.
 
 ### Completed labs
 * [SQL Injection Lab 1: WHERE clause vulnerability allowing retrieval of hidden data](sql-injection-lab-1.md)
-* [Cross-Site Scripting Lab 1: Reflected XSS into HTML context with nothing encoded](xss-lab-1.md)
+* [writeup: reflected XSS into HTML context](xss-lab-1.md)
 
 ### My next steps
 * Master advanced SQL Injection techniques, including UNION-based attacks and blind SQLi
