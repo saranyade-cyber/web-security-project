@@ -1,4 +1,4 @@
-# Writeup: SQL Injection Vulnerability in WHERE Clause
+# writeup: SQL Injection Vulnerability in WHERE Clause
 
 ### the goal
 The objective of this lab was to exploit a SQL injection vulnerability in the product 
