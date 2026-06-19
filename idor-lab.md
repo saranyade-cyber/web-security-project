@@ -32,3 +32,6 @@ or participant of that specific chat session.
    integers (like `1`, `2`, `3`), generate long, random, non-guessable Universally Unique
    Identifiers (UUIDs) for file names (e.g., `f81d4fae-7dec-11d0-a765-00a0c91e6bf6.txt`).
    This prevents attackers from guessing other files.
+
+   <img width="1122" height="631" alt="image" src="https://github.com/user-attachments/assets/764cb733-0243-43b3-afb0-1b040277647c" />
+
