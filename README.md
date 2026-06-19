@@ -15,3 +15,7 @@ and more importantly, how to secure them against modern attack vectors.
 * [writeup: password reset broken logic](writeups/authentication-lab.md)
 * [writeup: idor (insecure direct object references](writeups/idor-lab.md)
 * [writeup: SQL injection UNION attack retrieving data from other tables](writeups/sql-injection-UNION-based.md)
+
+I also completed a project on:
+### Password Hashing + Strength Demo (Java)
+ You can view the full source code and setup documentation for my Java application inside the `project/` directory of this repository.
