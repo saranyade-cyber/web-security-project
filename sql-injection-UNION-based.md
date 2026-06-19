@@ -26,3 +26,8 @@ To prevent this vulnerability, the application must avoid dynamic string concate
 and implement parameterized queries (prepared statements). Using prepared statements
 ensures the database treats user input strictly as data rather than executable code,
 completely neutralizing SQL injection attempts regardless of the payload structure.
+
+<img width="1122" height="631" alt="image" src="https://github.com/user-attachments/assets/cab60d0d-5cde-4d3f-a165-ae91626f7948" />
+
+
+
