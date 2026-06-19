@@ -25,3 +25,5 @@ To prevent this vulnerability, the application must avoid dynamic string concate
 and implement parameterized queries (prepared statements). Using prepared statements 
 ensures the database treats user input strictly as data rather than executable code and
 hence, neutralizing any malicious logic.
+
+<img width="1122" height="631" alt="image" src="https://github.com/user-attachments/assets/2d12ac60-e547-469f-93a9-1be560ddb499" />
