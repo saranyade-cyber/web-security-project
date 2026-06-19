@@ -23,6 +23,9 @@ step if the token parameter arrived completely empty or not. It then blindly
 executed the password modification against whichever string was passed by the user
 in the username parameter.
 
+<img width="1122" height="631" alt="image" src="https://github.com/user-attachments/assets/21e3fc2c-aef7-477c-a0d9-94ba9e4cf8c7" />
+
+
 ### How to Fix
 The backend password reset handler must implement a strict "fail-closed" policy.
 If the reset token is missing, blank or malformed, the system must terminate
