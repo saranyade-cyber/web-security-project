@@ -20,17 +20,17 @@ public class PasswordSecurityDemo
             return;
         }
 
-        //Check strength rules
+        //for checking strength rules
         boolean isStrong = checkPasswordStrength(password);
         System.out.println("\n[+] Strength Evaluation:");
         System.out.println(isStrong ? "    -> Status: STRONG" : "    -> Status: WEAK (Fix: Ensure 8+ chars, uppercase, digit, & symbol)");
 
-        //Hash the password
+        //hashing the password
         String hashedPassword = hashWithSHA256(password);
         System.out.println("\n[+] Computed Hash (SHA-256):");
         System.out.println("    "+ hashedPassword);
 
-        //Print security explanations
+        //printing security explanations
         System.out.println("⚠️  CRITICAL SECURITY EDUCATION:");
         System.out.println("1. NEVER STORE PLAIN TEXT PASSWORDS!");
         System.out.println("If a database is leaked, plain text passwords expose users instantly.");
@@ -47,7 +47,7 @@ public class PasswordSecurityDemo
         }
         else
         {
-            // Fallback for IDE environments where System.console() can return null
+            //fallback for IDE environments where System.console() can return null
             Scanner scanner = new Scanner(System.in);
             System.out.println("Enter password to test:");
             return scanner.nextLine();
@@ -76,7 +76,7 @@ public class PasswordSecurityDemo
           {
             MessageDigest digest = MessageDigest.getInstance("SHA-256");
             byte[] encodedhash = digest.digest(input.getBytes(StandardCharsets.UTF_8));
-            // Convert byte array into signum representation
+            //converting byte array into signum representation
             StringBuilder hexString = new StringBuilder(2 * encodedhash.length);
             for (byte b : encodedhash)
             {
